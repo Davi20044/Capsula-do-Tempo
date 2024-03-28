@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cápsula do Tempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" align="center">
+            <img src="logo.png" alt="Netflix Logo">
+            <h2>Capsula do Tempo</h2>
+        </div>
+    </header>
+
+    <main>
+        <h1>Lista de Episodios</h1>
+        <ul>
+            <a href="javascript:void(0)" onclick="openModal('BeakmanEP1.html')">
+                <li>Episodio 1 Temporada 1</li>
+            </a>
+            
+        </ul>
+    </main>
+
+
+    <br><br><br>
+    <footer>
+        <p>&copy; 2024 Cápsula do Tempo</p>
+    </footer>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <iframe id="iframeContent" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
