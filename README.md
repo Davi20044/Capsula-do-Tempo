@@ -19,3 +19,5 @@ A plataforma é acessada através de um navegador web. Ao entrar no site, os usu
 - JavaScript: Responsável pela interatividade da página, como a abertura de modais ao clicar nas imagens dos filmes e séries.
 - Modalidade de Janela: Utilizada para exibir janelas popup para a indexação de outras paginas, para maior imerção.
 - Serviços de Streaming: Indexação com plataformas de streaming, como Disney+ , para fornecer acesso direto aos conteúdos mencionados.
+
+# Acesso a pagina: https://davi20044.github.io/Capsula-do-Tempo/
